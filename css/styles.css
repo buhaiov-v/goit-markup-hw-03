@@ -153,13 +153,26 @@ margin: 0 auto;
 
 /* features 2 */
 
+.features-title {
+visibility: hidden;
+}
+
 .features-list-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px
+}
 
+.features-list {
+    display: flex;
+    gap: 24px;
+}
+
+.features-list-li {
+    width: calc ((100% - 72px) / 4);
 }
 
  .features-list-item {
