@@ -153,8 +153,21 @@ margin: 0 auto;
 
 /* features 2 */
 
-.features-title {
-visibility: hidden;
+.features {
+    padding: 120px 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .features-list-title {
@@ -172,7 +185,7 @@ visibility: hidden;
 }
 
 .features-list-li {
-    width: calc ((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
  .features-list-item {
