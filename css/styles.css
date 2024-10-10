@@ -257,7 +257,6 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2e2f42;
-margin-bottom: 72px;
 }
 
 .our-portfolio-list {
@@ -277,6 +276,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin-bottom: 8px;
 }
 
 .our-portfolio-list-item {
